@@ -35,10 +35,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="AcO-n2-RFR">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="440" minValue="150" maxValue="740" translatesAutoresizingMaskIntoConstraints="NO" id="AcO-n2-RFR">
                                 <rect key="frame" x="71" y="175" width="468" height="31"/>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Div-zr-DbY">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.25" minValue="0.0" maxValue="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Div-zr-DbY">
                                 <rect key="frame" x="73" y="504" width="464" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="407" id="7dQ-ij-BP6"/>
