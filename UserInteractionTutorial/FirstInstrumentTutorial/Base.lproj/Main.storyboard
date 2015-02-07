@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -38,7 +38,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="440" minValue="150" maxValue="740" translatesAutoresizingMaskIntoConstraints="NO" id="AcO-n2-RFR">
                                 <rect key="frame" x="71" y="175" width="468" height="31"/>
                                 <connections>
-                                    <action selector="changeFrequency:" destination="BYZ-38-t0r" eventType="valueChanged" id="eUm-7u-GG0"/>
+                                    <action selector="changeFrequency:" destination="BYZ-38-t0r" eventType="valueChanged" id="COk-Wp-bSO"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.25" minValue="0.0" maxValue="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Div-zr-DbY">
@@ -52,7 +52,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="changeAmplitude:" destination="BYZ-38-t0r" eventType="valueChanged" id="P9f-kL-Ne9"/>
+                                    <action selector="changeAmplitude:" destination="BYZ-38-t0r" eventType="valueChanged" id="IRI-nc-C2v"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amplitude" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcc-Bh-0Xr">
@@ -64,7 +64,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nzf-lS-68z">
                                 <rect key="frame" x="71" y="279" width="468" height="31"/>
                                 <connections>
-                                    <action selector="changeCarrierMultiplier:" destination="BYZ-38-t0r" eventType="valueChanged" id="EwU-iP-qnU"/>
+                                    <action selector="changeCarrierMultiplier:" destination="BYZ-38-t0r" eventType="valueChanged" id="Hz8-Aa-4UR"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Carrier Multiplier" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0p-VP-fox">
@@ -90,7 +90,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="changeModIndex:" destination="BYZ-38-t0r" eventType="valueChanged" id="e8Y-fN-VRu"/>
+                                    <action selector="changeModIndex:" destination="BYZ-38-t0r" eventType="valueChanged" id="bos-BU-eno"/>
                                 </connections>
                             </slider>
                         </subviews>

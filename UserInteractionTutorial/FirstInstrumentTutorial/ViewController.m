@@ -37,6 +37,7 @@
         isNewInstrumentPlaying = YES;
     }
 }
+
 - (IBAction)changeFrequency:(id)sender {
     [AKTools setProperty:newInstrument.frequencyValue withSlider:(UISlider *)sender];
 }
