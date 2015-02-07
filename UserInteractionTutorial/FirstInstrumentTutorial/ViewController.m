@@ -37,6 +37,17 @@
         isNewInstrumentPlaying = YES;
     }
 }
+- (IBAction)changeFrequency:(id)sender {
+}
+
+- (IBAction)changeCarrierMultiplier:(id)sender {
+}
+
+- (IBAction)changeModIndex:(id)sender {
+}
+
+- (IBAction)changeAmplitude:(id)sender {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
