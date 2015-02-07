@@ -10,6 +10,7 @@
 
 #import "AKFoundation.h"
 #import "NewInstrument.h"
+#import "AKTools.h"
 
 @implementation ViewController
 
