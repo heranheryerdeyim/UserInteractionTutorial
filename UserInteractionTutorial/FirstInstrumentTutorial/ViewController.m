@@ -38,15 +38,19 @@
     }
 }
 - (IBAction)changeFrequency:(id)sender {
+    [AKTools setProperty:newInstrument.frequencyValue withSlider:(UISlider *)sender];
 }
 
 - (IBAction)changeCarrierMultiplier:(id)sender {
+    [AKTools setProperty:newInstrument.carrierMultValue withSlider:(UISlider *)sender];
 }
 
 - (IBAction)changeModIndex:(id)sender {
+    [AKTools setProperty:newInstrument.modIndexValue withSlider:(UISlider *)sender];
 }
 
 - (IBAction)changeAmplitude:(id)sender {
+    [AKTools setProperty:newInstrument.amplitudeValue withSlider:(UISlider *)sender];
 }
 
 - (void)didReceiveMemoryWarning {
