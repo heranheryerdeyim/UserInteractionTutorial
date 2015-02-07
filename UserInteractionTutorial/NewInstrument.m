@@ -15,6 +15,22 @@
     self = [super init];
     if (self) {
         
+        _frequencyValue = [[AKInstrumentProperty alloc] initWithValue:440
+                                                              minimum:220
+                                                              maximum:880];
+        
+        _carrierMultValue   = [[AKInstrumentProperty alloc] initWithValue:0.5
+                                                                  minimum:0
+                                                                  maximum:1];
+        
+        _modIndexValue   = [[AKInstrumentProperty alloc] initWithValue:0.5
+                                                               minimum:0
+                                                               maximum:1];
+        
+        _amplitudeValue   = [[AKInstrumentProperty alloc] initWithValue:0.25
+                                                                minimum:0
+                                                                maximum:0.5];
+        
         AKFMOscillator *fmOscillator;
         fmOscillator = [[AKFMOscillator alloc] init];
         [self connect:fmOscillator];
