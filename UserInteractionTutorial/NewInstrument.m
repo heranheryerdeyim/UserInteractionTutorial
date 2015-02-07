@@ -43,6 +43,13 @@
         AKFMOscillator *fmOscillator;
         fmOscillator = [[AKFMOscillator alloc] init];
         [self connect:fmOscillator];
+        
+        fmOscillator.baseFrequency     = _frequencyValue;
+        fmOscillator.carrierMultiplier = _carrierMultValue;
+        fmOscillator.modulationIndex   = _modIndexValue;
+        fmOscillator.amplitude         = _amplitudeValue;
+        
+        // AUDIO OUTPUT ========================================================
 
         AKAudioOutput *audioOutput = [[AKAudioOutput alloc] initWithAudioSource:fmOscillator];
         [self connect:audioOutput];
